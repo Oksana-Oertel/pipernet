@@ -1,0 +1,193 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #007765;
+    width: 1219px;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    width: 184px;
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 19px;
+    margin-right: 502px;
+    
+    
+}
+
+.menu{
+    width: 450px;
+    display: inline-block;
+    margin-bottom: 27px;
+    margin-top: 28px;
+    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.menu ul{
+list-style-type: none;
+}
+.menu li {
+    display: inline;
+}
+.menu li::after{
+    content: "|";
+}
+
+.intro {
+    height: 403px;
+    width: 1219px;
+    background-image: url("../images/main_img.png");
+    
+}
+
+.intro p{
+    padding-top: 160px;
+    margin: 0;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.problem{
+    background-color: #EEEEEE;
+    width: 1219px;
+}
+ h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+text-align: center;
+color: #007765;
+margin-top: 0px;
+padding-top: 52px;
+margin-bottom: 16px;
+}
+
+.container{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+padding-left: 54px;
+padding-right: 54px;
+padding-bottom: 92px;
+}
+
+.hero{
+    margin-top: 0px;
+    height: 483px;
+    width: 1219px;
+    background-image: url("../images/hero.png");
+}
+ .coin{
+    background-color: #FFFFFF;
+    width: 1219px;
+ }
+
+
+.coin img{
+    float: left;
+    margin-right: 48px;
+}
+.photos {
+    width: 1219px;
+    background-color: #EEEEEE;
+    margin-bottom: 18px;
+
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 350px );
+}
+.gallery p {
+    margin: 0;
+}
+
+.photo{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+.name{
+    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #007765;
+}
+
+.position{
+    
+    font-family: 'Roboto';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+
+color: #000000;
+
+}
+
+footer{
+    background-color: #333333;
+    width: 1219px;
+    height: 176px;
+
+}
+
+.copy{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+padding-top: 48px;
+padding-bottom: 64px;
+padding-left: 340px;
+padding-right: 340px;
+}
+
